@@ -2,4 +2,6 @@
 .Rhistory
 
 *.quarto*
-*_site*
+_site
+
+/.quarto/
