@@ -1,0 +1,9 @@
+---
+title: "Experience"
+listing:
+  contents: experience
+  sort: "date desc"
+  type: default
+  date-format: YYYY-MM
+  categories: false
+---

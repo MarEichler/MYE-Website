@@ -1,11 +1,106 @@
 ---
-title: "newwebsite"
+pagetitle: "M. Y. Eichlersmith"
+page-layout: custom
+section-divs: false
+toc: false
+css: www/index.css
+editor: source
 ---
 
-This is a Quarto website.
+::: {.alt-background}
+::: {.content-block}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.features} 
+::: {.feature2 style="border: 1px solid red;"} 
+# M. Y. Eichlersmith  
+Hello! I'm Martha (she/her/hers) and currently I am a research programmer at Social Policy Research Associates. My job is to provide programming for data management, analysis and visualizations to a variety of teams at SPR. I completed my M.S. in Statistics at Northwestern University and my B.A. in Math at Gustavus Adolphus College. Between undergrad at graduate school, I worked for three years in investment banking. I'm originally from Minnesota and so it is no surprise that I enjoy watching hockey.
 
-```{r}
-1 + 1
-```
+## Education 
+
+
+[test link](education/gustavus.qmd) 
+
+<a href="education/gustavus.qmd">another test</a>
+
+<ul>
+<li>B.A. in Mathematics, 2015<br>
+<span style="font-size:0.85em">Gustavus Adolphus College</span></li>
+<li style="padding-top:10px;">M.S. in Statistics, 2020<br>
+<span style="font-size:0.85em">Northwestern University</span></li>
+</ul>
+
+:::
+<!-- end .feature2 -->
+::: {.feature style="border: 1px solid blue;"}
+<img src="www/img/MYE.jpg" alt="MYE headshot" width=100% >
+:::
+<!-- end .feature-->
+::: 
+<!-- end .features-->
+::: 
+::: 
+<!-- end .content-block > .alt-background -->
+
+::: {.content-block}
+<h1 style="text-align: center;">Personal Interests</h1>
+
+::: {.features}
+
+::: {.feature}  
+<img src="www/icon/socks-solid.svg" height=50px>
+
+### Knitting
+Knitting is my favorite past-time
+:::
+
+::: {.feature}
+<img src="www/icon/socks-solid.svg" height=50px>
+
+### Vegan
+Go Vegan! For the animals, the planet, and yourself
+:::
+
+::: {.feature}
+<img src="www/icon/socks-solid.svg" height=50px>
+
+### Recycling
+Reduce, reuse, recycle is my wo-mantra
+:::
+
+::: {.feature}
+<img src="www/icon/socks-solid.svg" height=50px>
+
+### Tea
+Nothing beats a good cup of tea with good company
+:::
+
+::: {.feature}  
+<img src="www/icon/socks-solid.svg" height=50px>  
+
+### Animal Companions
+I share my life with Blossom, the cutest guinea pig!
+:::
+
+::: {.feature}
+<img src="www/icon/socks-solid.svg" height=50px>
+
+### Hockey
+Being from Minnesota, it's no surprise that I love watching hockey, especially the Whitecaps and the Wild
+:::
+
+:::
+:::
+<!-- end feature>.content-block-->
+
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+### Analyze. Share. Reproduce. Your data has a story---tell it with Quarto.
+
+[Get Started](docs/get-started/index.html){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
+
+

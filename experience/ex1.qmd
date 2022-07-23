@@ -1,0 +1,29 @@
+---
+title: "post one "
+image: "static/MYE-logo.png"
+description: "Post description"
+date: "2022-06-01"
+---
+
+
+EXPERIENCE ONE
+
+Research Programmer
+Social Policy Research Associates (SPR) • Oakland, CA • Aug 2020
+
+Develop and manage datasets with documentation
+Create analytic files per project team requests
+Develop reproducible programs for data management tasks
+Produce tables and prepare materials to support analyses
+Create and design data visualizations (both static and dynamic)
+Develop and maintain R Shiny applications for clients such as Department of Labor Employment and Training Administration’s Workforce Performance: WIOA by the Numbers
+RLadies Presenter: Introduction to {box}
+R Ladies Twin Cities • meetup • Mar 10, 2022
+Presentation introducing the {box} package, which allows the user to create modularized code in R without having to develop a full package.
+View Slides
+View GitHub Repository
+
+R Shiny App: COVID-19
+R Shiny app that creates hex maps as well as trend line-charts for different COVID-19 metrics (cases, deaths, and vaccines).
+View App
+View GitHub Repository
