@@ -14,8 +14,7 @@ website:
     left: Created using [Quarto](https://quarto.org/) by [RStudio](https://www.rstudio.com/)
     center:
       - <img src="logo.png" style="height:3.5em;">
-      - | 
-        <div style="text-align:left; line-height: 1.5em; padding-left: 10px; letter-spacing:1px">IBIQUE IN<br>COLLIS RESISTO</div>
+      - <div class = "footertxt">IBIQUE IN<br>COLLIS RESISTO</div>
     right:
       - icon: github
         href: https://github.com/MarEichler/mye-website

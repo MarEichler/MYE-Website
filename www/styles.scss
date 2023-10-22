@@ -4,8 +4,110 @@
 $primary:    #415A76;  /*darkblue */ 
 $body-color: #383838; /*darkgrey */ 
 $code-color: #383838; /*inline code color */ 
+$background-grey: rgb(247,249,251); 
+$border-grey: #dee2e6; 
+
+/*
+https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element
+https://isotropic.co/tool/hex-color-to-css-filter/ 
+*/ 
+.icon-primary {
+  /* filter: invert(29%) sepia(60%) saturate(336%) hue-rotate(170deg) brightness(97%) contrast(85%); = lost of 1.8 (close enought) */ 
+ filter: invert(29%) sepia(60%) saturate(336%) hue-rotate(170deg) brightness(97%); 
+  height: 50px; 
+}
+
+/***** styling for index page based on quarto webiste  ***********/
+/* Accessed July, 17, 2022: https://github.com/quarto-dev/quarto-web/blob/main/index.css*/ 
+
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 
-/*****************************/
-/*****************************/
-/*-- scss:rules --*/
+@media(min-width: 900px) {
+.content-block {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+}
+
+@media (min-width: 1200px) {
+.content-block {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+.alt-background {
+  background-color: $background-grey;
+  border-top: 1px solid $border-grey;
+  border-bottom: 1px solid $border-grey;
+}
+
+.features {
+  padding-bottom: 2em;
+}
+
+.feature {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 800px) { 
+.features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 0 0 -30px;
+  width: calc(100% + 30px);
+}
+.feature {
+  width: calc(33% - 30px);
+  margin: 20px 0 0 30px;
+}
+}
+
+.feature h3 {
+  margin-top: 0;
+}
+
+/* 
+.feature p:first-of-type {
+  margin-bottom: 0.2rem;
+  color: rgb(84, 85, 85);
+} */ 
+
+
+/***** custom styling   ***********/
+
+.feature2 {
+  margin-top: 20px;
+}
+
+@media (min-width: 800px) { 
+.feature2 {
+  width: calc(66% - 30px);
+  margin: 20px 0 0 30px;
+}
+}
+
+.feature2 h3 {
+  margin-top: 0;
+}
+
+.nav-footer {
+  border-top: 1px solid $border-grey !important; 
+  background-color: $background-grey !important;
+}
+
+div.footertxt {
+  text-align:left; 
+  line-height: 1.5em; 
+  padding-left: 10px; 
+  letter-spacing:1px;
+}

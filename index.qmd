@@ -3,7 +3,7 @@ pagetitle: "M. Y. Eichlersmith"
 page-layout: custom
 section-divs: false
 toc: false
-css: www/index.css
+# css: www/index.css 
 editor: source
 ---
 
@@ -11,7 +11,7 @@ editor: source
 ::: {.content-block}
 
 ::: {.features} 
-::: {.feature2 style="border: 1px solid red;"} 
+::: {.feature2} 
 # M. Y. Eichlersmith  
 Hello! I'm Martha (she/her/hers) and currently I am a research programmer at Social Policy Research Associates. My job is to provide programming for data management, analysis and visualizations to a variety of teams at SPR. I completed my M.S. in Statistics at Northwestern University and my B.A. in Math at Gustavus Adolphus College. Between undergrad at graduate school, I worked for three years in investment banking. I'm originally from Minnesota and so it is no surprise that I enjoy watching hockey.
 
@@ -31,7 +31,7 @@ Hello! I'm Martha (she/her/hers) and currently I am a research programmer at Soc
 
 :::
 <!-- end .feature2 -->
-::: {.feature style="border: 1px solid blue;"}
+::: {.feature}
 <img src="www/img/MYE.jpg" alt="MYE headshot" width=100% >
 :::
 <!-- end .feature-->
@@ -47,42 +47,42 @@ Hello! I'm Martha (she/her/hers) and currently I am a research programmer at Soc
 ::: {.features}
 
 ::: {.feature}  
-<img src="www/icon/socks-solid.svg" height=50px>
+<img src="www/icon/socks-solid.svg" class = "icon-primary">
 
 ### Knitting
 Knitting is my favorite past-time
 :::
 
 ::: {.feature}
-<img src="www/icon/socks-solid.svg" height=50px>
+<img src="www/icon/seedling.svg" class = "icon-primary">
 
 ### Vegan
 Go Vegan! For the animals, the planet, and yourself
 :::
 
 ::: {.feature}
-<img src="www/icon/socks-solid.svg" height=50px>
+<img src="www/icon/recycle.svg" class = "icon-primary">
 
 ### Recycling
 Reduce, reuse, recycle is my wo-mantra
 :::
 
 ::: {.feature}
-<img src="www/icon/socks-solid.svg" height=50px>
+<img src="www/icon/mug-hot.svg" class = "icon-primary">
 
 ### Tea
 Nothing beats a good cup of tea with good company
 :::
 
 ::: {.feature}  
-<img src="www/icon/socks-solid.svg" height=50px>  
+<img src="www/icon/paw.svg" class = "icon-primary"> 
 
 ### Animal Companions
 I share my life with Blossom, the cutest guinea pig!
 :::
 
 ::: {.feature}
-<img src="www/icon/socks-solid.svg" height=50px>
+<img src="www/icon/hockey-puck.svg" class = "icon-primary"> 
 
 ### Hockey
 Being from Minnesota, it's no surprise that I love watching hockey, especially the Whitecaps and the Wild
@@ -93,14 +93,5 @@ Being from Minnesota, it's no surprise that I love watching hockey, especially t
 <!-- end feature>.content-block-->
 
 
-::: {.get-started .alt-background}
-::: {.content-block}
-
-### Analyze. Share. Reproduce. Your data has a story---tell it with Quarto.
-
-[Get Started](docs/get-started/index.html){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
-
-:::
-:::
 
 
